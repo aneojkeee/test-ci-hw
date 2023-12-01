@@ -1,5 +1,3 @@
-import showHealth from './health';
+import getHealth from "./health";
 
-console.log('worked');
-
-showHealth(70);
+getHealth({ name: "magician", health: 90 });
